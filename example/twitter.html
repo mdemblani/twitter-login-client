@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Twitter Login</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="/index.js" type="text/javascript"></script>
+		<script src="https://github.com/mdemblani/twitter-client/twitter-client.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<button autofocus="true" onclick="twitter(this)">Connect Twitter</button>
+		<div id="authorize"></div>
+		<div id="access-section" style="visibility: hidden;">
+			<button id="accessButton" onclick="twitterAccess(this)">Get Twitter Access Token</button>
+			<div id="access"></div>
+		</div>
+		<div id="profile-section" style="visibility: hidden;">
+			<button id="profileButton" onclick="twitterProfile(this)">Get Twitter Profile</button>
+			<div id="profile"></div>
+		</div>
+	</body>
+</html>
