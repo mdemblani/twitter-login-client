@@ -2,6 +2,22 @@
 **Implements a Client-Side flow for login with twitter, similar to one provided by Facebook and Google.**
 **To read the Flow of implementing Login with Twitter, [Read here](https://dev.twitter.com/web/sign-in/implementing)**
 
+Installation:
+============
+
+* Clone as a Git repository
+    ```sh
+    git clone https://github.com/mdemblani/twitter-login-client.git
+    ```
+* Install as a node_module
+    ```sh
+    npm i twitter-login-client --save
+
+    OR
+
+    npm install twitter-login-client --save
+    ```
+
 Getting Started:
 ===============
 
