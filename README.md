@@ -17,6 +17,10 @@ Installation:
 
     npm install twitter-login-client --save
     ```
+* Install as Bower Component
+    ```sh
+    bower install <package> --save
+    ```
 
 Getting Started:
 ===============
