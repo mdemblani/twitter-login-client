@@ -1,4 +1,12 @@
 # Javascript Client for Login with Twitter
+
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Bower version](https://badge.fury.io/bo/twitter-login-client.svg)](https://badge.fury.io/bo/twitter-login-client)
+[![GitHub issues](https://img.shields.io/github/issues/mdemblani/twitter-login-client.svg)](https://github.com/mdemblani/twitter-login-client/issues)
+[![GitHub forks](https://img.shields.io/github/forks/mdemblani/twitter-login-client.svg)](https://github.com/mdemblani/twitter-login-client/network)
+[![GitHub license](https://img.shields.io/github/license/mdemblani/twitter-login-client.svg)](https://github.com/mdemblani/twitter-login-client/blob/master/LICENSE)
+
 **Implements a Client-Side flow for login with twitter, similar to one provided by Facebook and Google.**
 **To read the Flow of implementing Login with Twitter, [Read here](https://dev.twitter.com/web/sign-in/implementing)**
 
@@ -89,3 +97,12 @@ This function is used allow the user to login and authorize the application.
             a. `message`
             b. `oauth_token`, `oauth_verifier`
             Either *a* or *b* would be present at a time, not both.
+
+## License
+
+[MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/twitter-login-client.svg
+[npm-url]: https://npmjs.org/package/twitter-login-client
+[downloads-image]: https://img.shields.io/npm/dm/twitter-login-client.svg
+[downloads-url]: https://npmjs.org/package/twitter-login-client
