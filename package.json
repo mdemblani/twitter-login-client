@@ -1,0 +1,29 @@
+{
+  "name": "twitter-login-client",
+  "version": "1.0.3",
+  "description": "Implements a Client-Side flow for login with twitter, similar to one provided by Facebook and Google. To read the Flow of implementing Login with Twitter.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdemblani/twitter-login-client.git"
+  },
+  "keywords": [
+    "twitter",
+    "twitter-oauth",
+    "twitter-client",
+    "oauth-client",
+    "twitter-login",
+    "twitter-client-login",
+    "twitter-js",
+    "twitter-web-login"
+  ],
+  "author": "Manish M. Demblani (https://github.com/mdemblani)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdemblani/twitter-login-client/issues"
+  },
+  "homepage": "https://github.com/mdemblani/twitter-login-client#readme",
+  "main": "./src/twitter-client.js"
+}

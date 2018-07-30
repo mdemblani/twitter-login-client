@@ -3,4 +3,3 @@ node_modules
 nbproject
 example/twitter-server.js
 example/app.js
-package.json
